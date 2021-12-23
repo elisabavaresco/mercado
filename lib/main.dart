@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mercado/produto.dart';
 
 void main() => runApp(MyApp());
 
@@ -66,19 +67,3 @@ class MyApp extends StatelessWidget {
 }
 
 
-class Produto {
-  final String nome;
-  final int quantidade;
-  final double valor;
-
-  Produto(
-      this.nome,
-      this.quantidade,
-      this.valor,
-      );
-
-  @override
-  String toString() {
-    return 'Produto{nome: $nome, quantidade: $quantidade, valor: $valor}';
-  }
-}
